@@ -22,6 +22,7 @@ const UserSchema = gql`
     isOnline: Boolean
     createdAt: String
     updatedAt: String
+    bio: String
   }
 
   type File {
@@ -46,6 +47,7 @@ const UserSchema = gql`
     isOnline: Boolean
     createdAt: String
     updatedAt: String
+    bio: String
   }
 
   # ---------------------------------------------------------
