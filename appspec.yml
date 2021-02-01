@@ -6,7 +6,7 @@ files:
   - source: /package.json
     destination: /shenouda/folders/configs/
   - source: /package.json
-    destination: /folders/logs/sn-aws-bootcamb/
+    destination: /shenouda/folders/logs/sn-aws-bootcamb/
 permissions:
   - object: /folders/exe/sn-aws-bootcamb
     owner: ec2-user
