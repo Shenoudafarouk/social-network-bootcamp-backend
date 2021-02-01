@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /folders/exe/sn-aws-bootcamb
+    destination: /shenouda/folders/exe/sn-aws-bootcamb
   - source: /package.json
     destination: /folders/configs/
   - source: /package.json
