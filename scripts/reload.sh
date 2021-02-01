@@ -5,12 +5,12 @@ then
    echo 'executes the steps to deploy on Live-instances'
     # rm /folders/configs/sn-aws-bootcamb.json
     # cd /folders/configs
-    yes | cp /shenouda/folders/exe/sn-aws-bootcamb/envConfig/live/sn-aws-bootcamp.json /folders/configs/
+    yes | cp /shenouda/folders/exe/sn-aws-bootcamb/envConfig/live/sn-aws-bootcamp.json /shenouda/folders/configs/
 elif [ "$DEPLOYMENT_GROUP_NAME" == "sn-aws-bootcamb-BE-Dev-GN" ]
 then
    echo 'executes the steps to deploy on Dev-instances'
     # rm /folders/configs/coatconnect-user.json
-    yes | cp /shenouda/folders/exe/sn-aws-bootcamb/envConfig/dev/sn-aws-bootcamp.json /folders/configs/
+    yes | cp /shenouda/folders/exe/sn-aws-bootcamb/envConfig/dev/sn-aws-bootcamp.json /shenouda/folders/configs/
 else
     echo 'group name doesnot exist'
 fi

@@ -4,7 +4,7 @@ files:
   - source: /
     destination: /shenouda/folders/exe/sn-aws-bootcamb
   - source: /package.json
-    destination: /folders/configs/
+    destination: /shenouda/folders/configs/
   - source: /package.json
     destination: /folders/logs/sn-aws-bootcamb/
 permissions:
